@@ -2,6 +2,7 @@
 HAB project (high altitude balloon) of 3 smart kiddos who show interest in cosmonautics, satellites and astronomy.
 This repo includes DataSimulator (dashboard) made for STRAT-1 , custom PCB's and the main code that runs in the HAB.
 Hope that these resources will help somebody later with building their own HAB project
+https://strat-1-project.w3spaces.com/
 
 # SATDEC (HAB/cubesat Dashboard)
 Includes:
