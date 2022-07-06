@@ -13,8 +13,8 @@ Includes:
  -Data summary ( from whole HAB mission)
 
 # Devices Compatible with SATDEC:
-  -RTLSDR> https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
-  -FlightAware ProStick Plus (ADS-B Specialty RTL-SDR)
+  - RTLSDR> https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
+  - FlightAware ProStick Plus (ADS-B Specialty RTL-SDR)
 
 # STRAT-1
 STRAT-1 is a basic high altitude balloon sond in shape of cube (we call it ,, the cubesat test"). The structure is 3D printed, PCB's are custom made for the size and pinouts. There's a hierarchy simillar to the real cubesats:
