@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.exitButton = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.MenuButton1 = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,14 +49,6 @@
             this.panel1.Controls.Add(this.MenuButton1);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            // 
-            // exitButton
-            // 
-            this.exitButton.BackColor = System.Drawing.Color.DarkCyan;
-            resources.ApplyResources(this.exitButton, "exitButton");
-            this.exitButton.Name = "exitButton";
-            this.exitButton.UseVisualStyleBackColor = false;
-            this.exitButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // button5
             // 
@@ -92,6 +84,14 @@
             resources.ApplyResources(this.MenuButton1, "MenuButton1");
             this.MenuButton1.Name = "MenuButton1";
             this.MenuButton1.UseVisualStyleBackColor = false;
+            // 
+            // exitButton
+            // 
+            this.exitButton.BackColor = System.Drawing.Color.DarkCyan;
+            resources.ApplyResources(this.exitButton, "exitButton");
+            this.exitButton.Name = "exitButton";
+            this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
