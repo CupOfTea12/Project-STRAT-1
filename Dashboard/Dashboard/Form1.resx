@@ -223,7 +223,7 @@
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>904, 528</value>
+    <value>903, 528</value>
   </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 37</value>
