@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
@@ -36,6 +37,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.MenuButton1 = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.timeLabel = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,11 +96,18 @@
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.button1_Click);
             // 
+            // timeLabel
+            // 
+            resources.ApplyResources(this.timeLabel, "timeLabel");
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
+            this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -105,6 +115,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -117,5 +128,7 @@
         private Button button2;
         private Button MenuButton1;
         private Button exitButton;
+        private Label timeLabel;
+        private System.Windows.Forms.Timer timer1;
     }
 }
